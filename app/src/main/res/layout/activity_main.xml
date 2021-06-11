@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_NumerosAgradables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:textSize="18sp"
+        android:text="Lista de personas agradables" />
+
+    <Button
+        android:id="@+id/btn_NumerosDesagradables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:textSize="18sp"
+        android:text="Lista de personas no agradables" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:textSize="18sp"
+        android:text="LLamadas perdidas" />
+
+    <ListView
+        android:id="@+id/listaLLamadas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>
